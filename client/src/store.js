@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
 
-const ip = "10.4.8.3:4000";
+const ip = "XXXXXX";
 
 Vue.use(Vuex);
 

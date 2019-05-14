@@ -10,10 +10,10 @@ module.exports.login42 = (body, res) => {
             json: true,
             body: {
                 grant_type: 'authorization_code',
-                client_id: '01dac0c084ae2a6ac29ee0a880d2769e731682b34478bd75a8849dfd1650f08c',
-                client_secret: '81fa82ff71cb6198ffb878256e9fa43e3eacaf18fac55754dcebdc87293ba056',
+                client_id: 'XXXXXX',
+                client_secret: 'XXXXXX',
                 code: data.args.oauthCode,
-                redirect_uri: 'http://localhost:8080/oauth/42'
+                redirect_uri: 'XXXXXX'
             }
         }, (error, response, body) => {
             if (error)
@@ -48,10 +48,10 @@ module.exports.logingithub = (body, res) => {
             json: true,
             body: {
                 grant_type: 'authorization_code',
-                client_id: 'a92145361450ff616ae0',
-                client_secret: 'f08c1bc322a126ce9ed13cb13acb950dee3aa565',
+                client_id: 'XXXXXX',
+                client_secret: 'XXXXXX',
                 code: data.args.oauthCode,
-				redirect_uri: 'http://localhost:8080/oauth/github',
+				redirect_uri: 'XXXXXX',
             }
         }, (error, response, body) => {
             if (error)
